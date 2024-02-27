@@ -1,0 +1,20 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: aliceblue;
+    background-image: url('./assets/images/background-pattern-desktop.svg');
+    background-repeat: no-repeat;
+}
+@media screen and (max-width:600px) {
+    body{
+        background-image: url('./assets/images/background-pattern-mobile.svg');
+        background-size: contain;
+    }
+}
